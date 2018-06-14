@@ -21,6 +21,8 @@ class App extends Component {
         <Header />
         <Navigation />
         <Routes />
+        <hr />
+        {this.props.children}
       </div>
     );
   }
